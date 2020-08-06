@@ -15,15 +15,15 @@ mongoose.connect(config.DB_URI).then(() =>
 
 const app = express();
 
-app.use('/api/v1/rentals',rentalRoutes);
+app.use('/api/v1/rentals', rentalRoutes);
 /*
 app.get('/rentals',function(req,res){
 
 	res.json({'success': true});
 });
 */
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
-app.listen(3001,function(){
+app.listen(3000,function(){
 	console.log("app is running");
 })
