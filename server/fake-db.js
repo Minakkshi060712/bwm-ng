@@ -28,7 +28,7 @@ dailyRate: 11
 	title:"Old house in nature",
 city:"Spiska Nova Ves",
 street:"Main street",
-category:"Banicka",
+category:"house",
 image:"https://booksync-jerga-prod.s3.amazonaws.com/uploads/rental/image/5/image.jpeg",
 bedrooms: 5,
 shared:true,
